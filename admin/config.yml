@@ -3,6 +3,8 @@ backend:
   repo: yte/testNetlifyCMS
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
+  
+site_url: https://yte0.github.io/testNetlifyCMS
 
 media_folder: public/img
 public_folder: img
