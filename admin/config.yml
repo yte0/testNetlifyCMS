@@ -3,14 +3,12 @@ backend:
   repo: yte0/testNetlifyCMS 
   branch: main
   base_url: https://cmsapitest1.herokuapp.com
-  
-site_url: https://yte0.github.io/testNetlifyCMS
 
 media_folder: public/img
 public_folder: img
 collections:
-  - label: "News"
-    name: "news"
+  - label: "Blog"
+    name: "blog"
     folder: "_posts/blog"
     create: true
     fields:
